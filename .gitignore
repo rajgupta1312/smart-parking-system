@@ -2,6 +2,41 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+
+# Database (if local files)
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Uploads (optional)
+static/uploads/
+
+# QR codes (optional - regenerate)
+static/qr/
 
 # C extensions
 *.so
